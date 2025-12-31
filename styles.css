@@ -237,8 +237,8 @@ p {
 
 .project-thumb {
   width: 100%;
-  aspect-ratio: 16 / 9;
-  object-fit: cover;
+  aspect-ratio: auto;
+  object-fit: contain;
   border-radius: 10px;
   border: 1px solid var(--border);
   background: #fff;
@@ -249,6 +249,16 @@ p {
   margin: 6px 0;
   font-weight: 600;
   color: var(--text);
+}
+
+#contact a {
+  color: var(--accent);
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+#contact a:hover {
+  color: var(--accent-2);
 }
 
 footer {
