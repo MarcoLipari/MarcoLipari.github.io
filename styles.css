@@ -226,6 +226,11 @@ p {
   margin-bottom: 10px;
 }
 
+.project-card iframe {
+  margin-bottom: 16px;
+  border-radius: 10px;
+}
+
 .tags {
   display: inline-flex;
   gap: 6px;

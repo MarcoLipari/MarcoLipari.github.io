@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Marco Lipari</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon_io/favicon.ico">
 </head>
 
 <body>
@@ -22,7 +23,7 @@
 
     <main>
         <section id="hero">
-            <h1>Hello, I’m Marco Lipari</h1>
+            <h1>Hello, I'm Marco Lipari</h1>
             <p>Computer Science and Statistics student who loves building and learning cool things.</p>
             <div class="hero-actions">
                 <a class="btn" href="#projects">View Projects</a>
@@ -67,32 +68,36 @@
             <div class="project-grid">
                 <article class="project-card">
                     <h3>Remote Desktop Control via AI agent</h3>
-                    <img class="project-thumb" src="Remoto.png" alt="Tech stack for Remoto" />
+                    <img class="project-thumb" src="images/Remoto.png" alt="Tech stack for Remoto" />
+                    <p><strong>Promo video:</strong></p>
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/mSuzutYDggg"
+                        title="Remoto Demo" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     <p>
-                        This
-                        project was done in
-                        for the McGill CodeJam hackathon, where we were selected as top 3 finalists out of 76 teams by
-                        the judges and finished 2nd overall
-                        by a participant vote. My contributions focused on engineering a low-latency media pipeline
+                        This project was done for the McGill CodeJam hackathon, where we were selected as top 3
+                        finalists out of 76 teams by
+                        the judges and finished 2nd overall by a participant vote. My contributions focused on
+                        engineering a low-latency media pipeline
                         using MediaMTX, FFmpeg and Cloudflare which allowed us to stream any home desktop with minimal
                         delay and a reliable connection to any device in the world through the web.
                     </p>
                     <p>
                         The final system combines speech recognition, AI agent processing, and real-time streaming to
-                        allow
-                        users to interact with
-                        their computers remotely from any location by typing or speaking commands or speaking natural
+                        allow users to interact with their computers remotely from any location by typing or speaking
+                        commands or speaking natural
                         language instructions. The command is interpreted by Claude API to translate into keyboard and
-                        mouse intructions,
-                        and these are executed on the remote desktop while the user sees a live video feed of their
+                        mouse intructions, and these are executed on the remote desktop while the user sees a live video
+                        feed of their
                         screen.
-
                     </p>
                     <span class="tags">Networking · Applied AI · Distributed Systems</span>
                 </article>
+
                 <article class="project-card">
-                    <h3>Dating Online Text Using Transformer Models</h3>
-                    <img class="project-thumb" src="MAISProject.png" alt="Screenshot of demo website done for MAIS" />
+                    <h3>Transformer-Based Text Dating Model</h3>
+                    <img class="project-thumb" src="images/MAISProject.png"
+                        alt="Screenshot of demo website done for MAIS" />
                     <p>Fine-tuned a RoBERTa-based transformer to classify online text by time period, achieving 85%
                         accuracy and deploying an
                         interactive demo to present results. Was done in a team of 4 for an extracuricular course, MAIS
@@ -107,8 +112,9 @@
                         of compressed raw data into a
                         manageable, task-specific dataset.
                     </p>
-                    <span class="tags"> ML/AI Fundamentals · Fine-Tuning LLMs · Pytorch/Numpy/Pandas Fundamentals</span>
+                    <span class="tags">ML/AI · Fine-Tuning LLMs · PyTorch · Pandas</span>
                 </article>
+
                 <article class="project-card">
                     <h3>An Application of Markov Chains and Graph Theory to Web Page Ranking</h3>
                     <p>
@@ -120,7 +126,7 @@
                         rankings. Interpreted academic
                         research and translated theoretical models into working code, documented in technical report.
                     </p>
-                    <span class="tags">Python · Web Scraping · Mathematical Modelling </span>
+                    <span class="tags">Python · Graph Theory · Web Scraping · Mathematical Modeling</span>
                 </article>
             </div>
         </section>
